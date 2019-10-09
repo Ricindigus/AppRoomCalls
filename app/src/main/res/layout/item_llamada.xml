@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtUuid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="xxxxxxxx"/>
+        <TextView
+            android:id="@+id/txtNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="984763597"/>
+        <TextView
+            android:id="@+id/txtDuracion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 min"/>
+        <TextView
+            android:id="@+id/txtHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14:30"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
